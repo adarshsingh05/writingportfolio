@@ -1,0 +1,356 @@
+.middleup{
+    height: 200px;
+    width: 100%;
+    text-align: center;
+    background-color: #f7f7f7;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    
+.text{
+ font-size: 20px;
+ font-style: italic;
+}
+}
+p.main{
+    color: #ff0057;
+    
+}
+.header{
+    display: flex;
+    flex-direction: row;
+    
+    justify-content: space-between;
+
+
+}
+p.main {
+    font-family: "Whisper", cursive;
+    font-weight: 800;
+    font-style: normal;
+    font-size: 35px;
+  }
+  
+.headerright{
+    
+        display: flex;
+        flex-direction: row; /* Arrange items in a column */
+        align-items: flex-start; /* Align items to the start of the cross axis */
+        margin-top: 10px; /* Optional: Adjust spacing */
+        justify-content: space-around; 
+        margin-bottom: 25px;   
+    
+}
+.oneo{
+    margin: 15px;
+    font-family: "Whisper", cursive;
+    font-weight: 800;
+    font-style: normal;
+    font-size: 30px;
+}
+.contentport{
+    font-size: 30px;
+    font-weight: 100;
+}
+.sec2{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    
+}
+.rtext{
+    font-size: 32px;
+    margin-top: 10px;
+}
+.maincard{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    flex-direction: row;
+    margin-top: 10px;
+}
+.card{
+    border: 2px solid #585858;
+    transition: transform 0.3s ease; 
+    box-shadow: 5px 10px 5px #6c6b6c28; 
+
+}
+.card a {
+    text-decoration: none;
+    color: inherit; /* Optionally, inherit the color from parent */
+  }
+.card:hover {
+    border-color: #f7f7f7; /* Change border color on hover */
+    box-shadow: 0 0 10px #403e3e; /* Add shadow on hover */
+    cursor: pointer; /* Change cursor on hover */
+    transform: scale(1.03);
+}
+.card-img-top{
+    height: 180px;
+    width: 285px;
+}
+.card2{
+    margin: 10px;
+    margin-left: 80px;
+    margin-right: 80px;
+
+
+}
+.sec3{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 14px;
+    font-size: 32px;
+}
+.lastbutton{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.lastbuttontext{
+    font-size: 18px;
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+.imagee{
+    margin-left: 100px;
+    margin-top: 40px;
+    height: 200px;
+    width: 200px
+}
+.why{
+    display: flex;
+    flex-direction: row;
+    height: 500px;
+    margin-bottom: -90px;
+}
+.texts{
+    margin: 50px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    height: 300px;
+    width: 1550px;
+}
+#cardo{
+    margin-right: 80px;
+}
+
+
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700;800&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Poppins', sans-serif;
+}
+.about-wrapper{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    height: 60vh;
+    width: 1200px;
+    margin-left: 50px;
+}
+.about-left{
+    background-color: #f7f7f7;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 70vh;
+    color:#fff
+}
+.about-left-content > div{
+    background: #0e0f0f;
+    padding: 4rem 4rem 2.5rem 5rem;
+    text-align: center;
+    
+    border-radius: 12px 12px 0 0;
+}
+.about-left-content{
+    box-shadow: 0px 0px 18px -1px rgba(12, 12, 12, 0.39);
+    -webkit-box-shadow: 0px 0px 18px -1px rgba(0, 0, 0, 0.39);
+    -moz-box-shadow: 0px 0px 18px -1px rgba(0, 0, 0, 0.39);
+    border-radius: 12px;
+    width:80%;
+}
+.about-img img{
+    display: block;
+    width: 200px;
+}
+.about-img{
+    width: 200px;
+    height: 200px;
+    overflow: hidden;
+    border-radius: 50%;
+    transition: all 0.5s ease-in-out;
+}
+.shadow{
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 50%;
+    width: 200px;
+    height: 200px;
+}
+
+
+
+.about-left-content h2{
+    font-size: 2rem;
+    margin: 2.2rem 0 0.6rem 0;
+    line-height: 1.2;
+    padding-bottom: 1rem;
+}
+.about-left-content h3{
+    text-transform: uppercase;
+    font-weight: 300;
+    letter-spacing: 5px;
+    margin-top: 1.2rem;
+}
+.icons{
+    background: #12192c;
+    display: flex;
+    justify-content: center;
+    padding: 0.8rem 0;
+    border-radius: 0 0 12px 12px;
+}
+.icons li{
+    list-style-type: none;
+    background: #616061;
+    color: #fff;
+    width: 40px;
+    height: 40px;
+    margin: 0 0.5rem;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.2rem;
+    cursor: pointer;
+    transition: all 0.5s ease-in-out;
+}
+
+
+.about-right{
+    background: #060606;
+    height: 70vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 0 5rem;
+    text-align: center;
+    color:#fff
+    
+}
+.about-right h1{
+    font-size: 5rem;
+    text-transform: uppercase;
+}
+.about-right h1 span{
+    color: #d7d3d8;
+}
+.about-right h2{
+    font-weight: 600;
+}
+
+.btn.btn-pink:hover{
+    background: transparent;
+    border-color: #fff;
+    color: #fff;
+}
+.btn.btn-white{
+    transition: all 0.5s ease-in-out;
+}
+.btn.btn-white:hover{
+    background: #090909;
+    border-color: #ebebec;
+    color: #fff;
+}
+.about-para p{
+    font-weight: 300;
+    padding: 0.5rem;
+    opacity: 0.8;
+}
+
+@media screen and (min-width: 992px){
+    .about-wrapper{
+        display: grid;
+        grid-template-columns: repeat(2, 2fr);
+    }
+
+    .about-left{
+        position: relative;
+    }
+    .about-left-content{
+        position: absolute;
+        width:80%
+    
+    }
+}
+.credit{
+    text-align: center;
+    color: #fff;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.credit a{
+    text-decoration: none;
+    color:#f7f3f9;
+    font-weight: bold;
+} 
+#allers{
+    margin-top: 10px;
+}
+.textof{
+    height: 700px;
+    width: 400px;
+}
+.sec31{
+    font-size: 30px;
+    margin-left: 230px;
+    margin-bottom: 20px;
+}
+
+
+.new-div {
+
+    margin-left: 800px;
+    margin-top: -470px;
+    margin-right: 300px;
+    /* height: 1200px; */
+}
+#myimg{
+    height: 200px;
+    width: 100%;
+}
+.laster{
+    margin-left: -265px;
+    /* border: 2px solid black;  */
+    display: flex;
+    flex-direction: row;
+    margin-top: 50px;
+    width: 747px
+}
+.imagesss{
+    border: 2px solid black;
+    border-radius: 3%;
+    height: 190px;
+    margin-bottom: -30px;
+    
+}
+
+
+
+
+
+
